@@ -31,7 +31,7 @@ export const useAuth = () => {
   return context;
 };
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ecommercebackend-2-f367.onrender.com';
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
